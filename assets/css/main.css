@@ -1,1 +1,16 @@
-/* custom styles */
+body{
+  background-color: rgba(225,0,225,0.2);
+}
+header{
+text-align: center;
+}
+
+main{
+  text-align: center;
+}
+
+.headshot{
+  text-align: center;
+  border-radius: 50%;
+  max-width: 400px;
+}
