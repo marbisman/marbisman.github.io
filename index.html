@@ -18,22 +18,26 @@
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
-  <div id="page-wrapper">
-    <h1>Maria (Masha) Arbisman</h1>
-    <img class="headshot" src="assets/imgs/Headshot.jpg" alt="Masha">
-  </div>
   <header>
+    <h1>Maria (Masha) Arbisman</h1>
     <nav>
-        <a href="#">My Work</a>
-        <a href="#">Contact Me</a>
+        <a href="#myWork">My Work</a>
+        <a href="#contactMe">Contact Me</a>
     </nav>
   </header>
+
+  <div id="page-wrapper">
+    <img class="headshot" src="assets/imgs/Headshot.jpg" alt="Masha">
+  </div>
+
   <main>
-
-    <h1>Work Examples</h1>
+  <section class="workSection" id="myWork">
+    <h1 class="workExamplesHeader">Work Examples</h1>
     <p> <a href ="https://github.com/marbisman/jquery-events-lab">jQuery Events</a></p>
+  </section>
 
-    <h1>Contact Me</h1>
+  <section class="contactSection" id="contactMe">
+    <h1 class="contactMeHeader">Contact Me</h1>
     <p>
       <a href="mailto:maria.arbisman@gmail.com?Subject=Interested%20in%20your%20work" target="_top">Email Me</a>
     </p>
@@ -46,6 +50,7 @@
     <p>
       <a href="https://twitter.com/Sh3llSlut">Twitter Account</a>
     </p>
+  </section>
   </main>
 </body>
 </html>

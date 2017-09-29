@@ -7,10 +7,21 @@ text-align: center;
 
 main{
   text-align: center;
+  background-color: rgba(255,215,0,0.2);
 }
 
 .headshot{
   text-align: center;
   border-radius: 50%;
   max-width: 400px;
+}
+
+.workSection{
+  float: left;
+  margin: 200px;
+}
+
+.contactSection{
+  float: right;
+  margin: 200px;
 }
